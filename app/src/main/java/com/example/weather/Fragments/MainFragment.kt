@@ -27,7 +27,6 @@ import com.example.weather.adapters.VpAdapter
 import com.example.weather.adapters.WeatherModel
 import com.example.weather.databinding.FragmentMainBinding
 import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
@@ -35,7 +34,7 @@ import com.google.android.material.tabs.TabLayoutMediator
 import com.squareup.picasso.Picasso
 import org.json.JSONObject
 
-const val API_KEY = "502872239c894d64b98194419232711"
+const val API_KEY = ""
 class MainFragment : Fragment() {
     private lateinit var fLocationClient: FusedLocationProviderClient
     private val fList = listOf(
